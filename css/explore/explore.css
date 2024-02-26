@@ -1,0 +1,15 @@
+.explore {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.explore__txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore__txt h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}/*# sourceMappingURL=explore.css.map */

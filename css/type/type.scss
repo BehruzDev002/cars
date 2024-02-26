@@ -1,0 +1,98 @@
+.type {
+    margin-top: 100px;
+
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E1E1E1;
+        padding-bottom: 100px;
+
+        @media (max-width:1128px) {
+            flex-direction: column;
+        }
+
+        .block1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media (max-width:616px) {}
+
+            input {
+                width: 482px;
+                height: 56px;
+                font-size: 30px;
+                font-weight: 700;
+                padding-left: 10px;
+                margin-right: 30px;
+                border-radius: 10px;
+
+                @media (max-width:616px) {
+                    width: 100%;
+                }
+            }
+
+            button {
+                width: 102px;
+                height: 56px;
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'Mulish';
+                background: #FA3C45;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+
+                @media (max-width:486px) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .block2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            @media (max-width:1128px) {
+                margin-top: 50px;
+            }
+
+
+            h5 {
+                color: #9A9AB0;
+                font-size: 30px;
+                font-weight: 700;
+                transition: all .2s linear;
+                margin-right: 30px;
+
+                &:nth-last-of-type(1) {
+                    @media (max-width:362px) {
+                        margin-right: 0;
+                    }
+                }
+
+                &:hover {
+                    color: #FA3C45;
+                }
+
+
+                @media (max-width:486px) {
+                    font-size: 25px;
+                }
+
+                @media (max-width:486px) {
+                    font-size: 20px;
+                }
+
+                @media (max-width:362px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+
+.collection{
+    margin-top: 120px;
+    &__content{
+        &-txt{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                font-size: 62px;
+                font-weight: 700;
+                letter-spacing: 0.3%;
+                
+                @media (max-width:434px) {
+                  text-align: center;
+                }
+            }
+
+            @media (max-width:434px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+
+        &-block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 50px;
+
+            div{
+                display: block;
+                justify-content: center;
+                align-items: flex-start;
+                background:#E2E2EA ;
+                width: 400px;
+                height: 400px;
+                transition: all .2s linear;
+
+                h4{
+                    color: #E2E2EA;
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 170px;
+                    margin-bottom: 20px;
+                    margin-left: 50px;
+                }
+
+                h1{
+                    color: #E2E2EA;
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-bottom: 40px;
+                    margin-left: 50px;
+                }
+
+                h2{
+                    color: red;
+                }
+
+                div{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    height: auto;
+                    width: 0;
+                    margin-left: 50px;
+                    
+
+                    h3{
+                        color: #E2E2EA;
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-right: 20px;
+                    }
+
+
+
+                }
+
+                i{
+                    color: #E2E2EA;
+                    font-size: 24px;
+                    margin-left: 50px;
+                    margin-top: 10px;
+                }
+                &:hover{
+                    background: #C5010A;
+                }
+            }
+
+            .div1{
+                
+                width: 830px;
+                height: 400px;
+                background: #E2E2EA;
+
+                div{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    height: auto;
+
+                    h3{
+                        color: #E2E2EA;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

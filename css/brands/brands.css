@@ -1,0 +1,17 @@
+.brands {
+  margin-top: 120px;
+}
+.brands__txt h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5%;
+}
+.brands__content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=brands.css.map */

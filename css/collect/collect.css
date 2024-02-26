@@ -1,0 +1,94 @@
+.collect__txt {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+.collect__txt h1 {
+  color: #11142D;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.5%;
+}
+.collect .collect__content-block2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(350px);
+  place-items: center;
+  gap: 20px;
+}
+@media (max-width: 1279px) {
+  .collect .collect__content-block2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px);
+    place-items: center;
+  }
+}
+@media (max-width: 963px) {
+  .collect .collect__content-block2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px);
+    place-items: center;
+  }
+}
+@media (max-width: 631px) {
+  .collect .collect__content-block2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 1319px) {
+  .collect .collect__content-block2 {
+    margin-top: 30px;
+  }
+}
+.collect .collect__content-block2-block {
+  width: 296px;
+  height: auto;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.collect .collect__content-block2-block h4 {
+  padding: 10px 15px;
+  color: #FA3C45;
+  font-size: 18px;
+  font-weight: 600;
+  background: white;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: -200px;
+  cursor: pointer;
+}
+.collect .collect__content-block2-block-info {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.collect .collect__content-block2-block-info h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.8%;
+  text-align: center;
+}
+.collect .collect__content-block2-block-info h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.collect .collect__content-block2-block-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5%;
+  color: #FA3C45;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=collect.css.map */

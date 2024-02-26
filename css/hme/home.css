@@ -1,0 +1,210 @@
+.home {
+  padding-top: 120px;
+  background: #f8f8f8;
+}
+.home__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 1263px) {
+  .home__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home__content .block1 {
+  width: 816px;
+  height: 440px;
+  background: #E2E2EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@media (max-width: 839px) {
+  .home__content .block1 {
+    width: 100%;
+  }
+}
+.home__content .block1 i {
+  font-size: 70px;
+  color: red;
+}
+.home__content .block2 {
+  margin-top: 40px;
+}
+.home__content .block2 h2 {
+  color: black;
+  font-size: 31px;
+  font-weight: 700;
+  letter-spacing: 0.5%;
+  margin-bottom: 20px;
+}
+.home__content .block2 p {
+  width: 816px;
+  color: #92929D;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 839px) {
+  .home__content .block2 p {
+    width: 100%;
+  }
+}
+.home__content .block3 {
+  margin-top: 70px;
+  background: #FFFFFF;
+  width: 816px;
+  height: 559px;
+  border-radius: 10px;
+  padding: 50px 20px 20px 40px;
+}
+@media (max-width: 839px) {
+  .home__content .block3 {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .home__content .block3 {
+    height: 679px;
+  }
+}
+.home__content .block3 h2 {
+  color: black;
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: 0.5%;
+}
+.home__content .block3 h4 {
+  color: #92929D;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+}
+.home__content .block3 input {
+  width: 720px;
+  height: 56px;
+  border: 1px solid #FA3C45;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-top: 32px;
+}
+@media (max-width: 839px) {
+  .home__content .block3 input {
+    width: 100%;
+  }
+}
+.home__content .block3 .input3 {
+  width: 360px;
+  height: 56px;
+  border: 1px solid #FA3C45;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-top: 32px;
+}
+@media (max-width: 839px) {
+  .home__content .block3 .input3 {
+    width: 100%;
+  }
+}
+.home__content .block3 button {
+  background: #FA3C45;
+  width: 120px;
+  height: 56px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+@media (max-width: 1263px) {
+  .home__content .box2 {
+    margin-top: 50px;
+  }
+}
+.home__content .box2 .block25 {
+  background: #C5010A;
+  width: 384px;
+  height: 560px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+@media (max-width: 389px) {
+  .home__content .box2 .block25 {
+    width: 100%;
+  }
+}
+.home__content .box2 .block25 h2 {
+  width: 233px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.home__content .box2 .block25 p {
+  width: 226px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+  text-align: center;
+}
+.home__content .box2 .block25 button {
+  width: 100px;
+  height: 46px;
+  background: #C5010A;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.home__content .box2 .block15 {
+  width: 384px;
+  height: 320px;
+  border-radius: 8px;
+  background: var(--Light-System-Background-Primary, #FFF);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+@media (max-width: 389px) {
+  .home__content .box2 .block15 {
+    width: 100%;
+  }
+}
+.home__content .box2 .block15 h2 {
+  color: #11142D;
+  font-size: 39px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5%;
+}
+.home__content .box2 .block15 h4 {
+  color: #92929D;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.5%;
+}
+.home__content .box2 .block15 button {
+  width: 134px;
+  height: 40px;
+  background: #FA3C45;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=home.css.map */

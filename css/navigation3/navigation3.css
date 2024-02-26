@@ -1,0 +1,105 @@
+.header {
+  background: rgb(181, 0, 0);
+  position: relative;
+}
+.header .navigation3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation3 .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .header .navigation3 .nav__list {
+    display: none;
+  }
+}
+.header .navigation3 .nav__list .nav__link {
+  color: rgb(255, 252, 252) !important;
+}
+.header .navigation3 i {
+  display: none;
+}
+@media (max-width: 800px) {
+  .header .navigation3 i {
+    display: block;
+    font-size: 30px;
+    color: white;
+  }
+}
+.header .navigation3 button {
+  background: red;
+  width: 132px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .header .navigation3 button {
+    display: none;
+  }
+}
+.header .sidebar {
+  width: 0;
+  padding-bottom: 30px;
+  height: 550px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  top: 0px;
+  background: rgb(174, 7, 7);
+  transition: all 0.2 line;
+}
+@media (max-width: 800px) {
+  .header .sidebar {
+    visibility: visible;
+  }
+}
+.header .sidebar__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header .sidebar__list a {
+  color: white;
+  margin-top: 40px;
+}
+.header .sidebar__list .none {
+  display: none;
+}
+.header .sidebar__list .flex {
+  display: flex;
+}
+.header .sidebar button {
+  background: rgb(255, 0, 0);
+  width: 102px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: -40px;
+}
+.header .shown_sidebar {
+  width: 100% !important;
+  right: 10% !important;
+}/*# sourceMappingURL=navigation3.css.map */

@@ -1,0 +1,95 @@
+.download {
+    padding-top: 120px;
+
+    &__content {
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        @media (max-width:1042px) {
+            flex-direction: column;
+        }
+
+        .block1{
+            img{
+                @media (max-width:470px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        .block2 {
+
+            @media (max-width:1042px) {
+                margin-top: 20px;
+            }
+
+            @media (max-width:424px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            h2 {
+                color: black;
+                font-size: 48px;
+                font-weight: 700;
+                letter-spacing: 0.5%;
+
+                @media (max-width:556px) {
+                    font-size: 35px;
+                }
+
+                @media (max-width:348px) {
+                    font-size: 30px;
+                }
+            }
+
+            p {
+                width: 530px;
+                color: #92929D;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                @media (max-width:556px) {
+                   width: 350px;
+                }
+
+                @media (max-width:424px) {
+                   text-align: center;
+                }
+
+                @media (max-width:372px) {
+                    width: 300px;
+                 }
+
+            }
+
+            img{
+                @media (max-width:440px) {
+                    flex-direction: column;
+                    margin-top: 20px;
+                }
+            }
+
+            h4 {
+                color: black;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 10px;
+                margin-bottom: 20px;
+
+                i {
+                    color: red;
+                    font-size: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

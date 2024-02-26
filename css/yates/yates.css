@@ -1,0 +1,136 @@
+.yates {
+  margin-top: 80px;
+}
+.yates__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+@media (max-width: 1095px) {
+  .yates__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.yates__content .box1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+@media (max-width: 482px) {
+  .yates__content .box1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.yates__content .box1 .box1__box {
+  margin-right: 30px;
+}
+@media (max-width: 482px) {
+  .yates__content .box1 .box1__box {
+    margin-right: 0;
+  }
+}
+.yates__content .box1 .box1__box2 h2 {
+  color: white;
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: 0.5%;
+}
+@media (max-width: 482px) {
+  .yates__content .box1 .box1__box2 h2 {
+    text-align: center;
+  }
+}
+.yates__content .box1 .box1__box2 h3 {
+  color: #ECF2FE;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+}
+@media (max-width: 482px) {
+  .yates__content .box1 .box1__box2 h3 {
+    text-align: center;
+  }
+}
+.yates__content .box1 .box1__box2 ul li {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.yates__content .box1 .box1__box2 ul li a {
+  color: white;
+}
+.yates__content .box1 .box1__box2 ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.yates__content .box2 {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.yates__content .box2 p {
+  width: 453px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@media (max-width: 482px) {
+  .yates__content .box2 p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 1095px) {
+  .yates__content .block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.yates__content .block2 input {
+  width: 606px;
+  height: 56px;
+  background: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 610px) {
+  .yates__content .block2 input {
+    width: 100%;
+  }
+}
+.yates__content .block2 .input3 {
+  width: 606px;
+  height: 128px;
+  text-align: start;
+  padding-bottom: 70px;
+  border-radius: 10px;
+}
+@media (max-width: 610px) {
+  .yates__content .block2 .input3 {
+    width: 100%;
+  }
+}
+.yates__content .block2 button {
+  background: red;
+  width: 130px;
+  height: 56px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  margin-top: 20px;
+}/*# sourceMappingURL=yates.css.map */

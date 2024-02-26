@@ -1,0 +1,108 @@
+/* navigaton strart */
+@import url(../css/navigation/navigation.css);
+
+/* navigation2 start */
+@import url(../css/navigation2/navigation2.css);
+
+/* model strart */
+@import url(../css/modell/model.css);
+
+/* select strart */
+@import url(../css/select/select.css);
+
+/* clollection strart */
+@import url(../css/collection/collection.css);
+
+/*experiance strart */
+@import url(./experiance/experiance.css);
+
+/* choose strart */
+@import url(./choose/choose.css);
+
+/* brands strart */
+@import url(./brands/brands.css);
+
+/* items start */
+@import url(./items/items.css);
+
+/* about start */
+@import url(../css/about/about.css);
+
+/* download start */
+@import url(./dounload/download.css);
+
+/* subscribe start */
+@import url(./subscribe/subscribe.css);
+
+/* footer start */
+@import url(./footer/footer.css);
+
+/* explore start */
+@import url(./explore/explore.css);
+
+/* type start */
+@import url(./type/type.css);
+
+/* tesla start */
+@import url(./tesla/tesla.css);
+
+/* navigation3 start */
+@import url(./navigation3/navigation3.css);
+
+/* YATES START */
+@import url(./yates/yates.css);
+
+/* COLLECT START */
+@import url(./collect/collect.css);
+
+/* HOME START */
+@import url(./hme/home.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1310px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Mulish';
+}
+
+.header1{
+    background-image: url(../img/header\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header2{
+    background:#C5010A !important;
+    padding-top:  60px; ;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.ttf');
+    font-weight: 400;
+}

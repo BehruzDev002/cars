@@ -1,0 +1,110 @@
+footer {
+  background: #C5010A;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+footer .footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 827px) {
+  footer .footer__content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 827px) {
+  footer .footer__content .block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+footer .footer__content .block1 p {
+  width: 216px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 40px;
+}
+@media (max-width: 827px) {
+  footer .footer__content .block1 p {
+    text-align: center;
+  }
+}
+footer .footer__content .block1 h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 130px;
+}
+@media (max-width: 827px) {
+  footer .footer__content .block1 h5 {
+    text-align: center;
+  }
+}
+@media (max-width: 827px) {
+  footer .footer__content .block2 {
+    margin-bottom: 30px;
+  }
+}
+footer .footer__content .block2 h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+@media (max-width: 827px) {
+  footer .footer__content .block2 h2 {
+    text-align: center;
+  }
+}
+footer .footer__content .block2 ul {
+  margin-top: 40px;
+}
+footer .footer__content .block2 ul li {
+  margin-top: 20px;
+}
+footer .footer__content .block2 ul li a {
+  color: white;
+}
+@media (max-width: 827px) {
+  footer .footer__content .block2 ul li {
+    text-align: center;
+  }
+}
+footer .footer__content .block3 h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media (max-width: 335px) {
+  footer .footer__content .block3 h4 {
+    font-size: 16px;
+  }
+}
+footer .footer__content .block3 h4 i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 335px) {
+  footer .footer__content .block3 h4 i {
+    font-size: 16px;
+  }
+}
+footer .footer__content .block3 li {
+  list-style: none;
+}
+footer .footer__content .block3 li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .footer__content .block3 li a i {
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+}/*# sourceMappingURL=footer.css.map */
